@@ -1,0 +1,71 @@
+footer {
+  background: rgb(96, 102, 242);
+  background: linear-gradient(
+    322deg,
+    rgba(96, 102, 242, 1) 0%,
+    rgba(16, 11, 97, 1) 100%
+  );
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+footer h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+footer h2 span {
+  font-weight: 700;
+  color: #fea83b;
+}
+
+footer .menu {
+  margin-bottom: 20px;
+}
+
+footer .menu li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+footer .menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 0.7rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+footer .socials li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer .socials li a {
+  color: #f6f6f6;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+/* LAPTOPS */
+@media only screen and (max-width: 1215px) {
+}
+
+/* TABLETS */
+@media only screen and (max-width: 1023px) {
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+}

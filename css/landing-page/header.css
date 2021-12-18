@@ -35,6 +35,11 @@ header .menu {
 
 header .menu a {
   text-transform: uppercase;
+  margin-right: 36px;
+}
+
+header .button-container{
+  width: 30%;
 }
 
 header .header-buttons {
@@ -80,4 +85,32 @@ header .header-buttons .orange-btn {
 
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
+
+  header .header-buttons {
+    display: flex;
+    float: right;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    right: 8px;
+    top: 0px;
+    position: absolute;
+  }
+
+  header .header-buttons .blue-btn {
+  margin-bottom: 15px;
+  padding: 14px 20px;
+  }
+
+  #blueprint .right-side .info-box .col-1 {
+    width: 47%;
+  }
+
+  #blueprint .right-side .info-box .col-1 .icon-container {
+    margin: 20px auto 0 6px;
+  }
+
 }

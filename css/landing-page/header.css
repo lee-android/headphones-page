@@ -84,7 +84,11 @@ header .header-buttons .orange-btn {
 }
 
 /* MOBILE DEVICES */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+  header .container-fluid .menu{
+    display: none;
+  }
 
   header .header-buttons {
     display: flex;
